@@ -14,7 +14,7 @@ def banfunc():
                        {("snscanf", "snwscanf", "_sntscanf"):"_snscanf_s"},
                        {("_itoa", "_itow", "_i64toa", "_i64tow", "_ui64toa", "_ui64tot", "_ui64tow", "_ultoa", "_ultot", "_ultow"):"_itoa_s, _itow_s"},
                        {("gets", "_getts", "_gettws"):"gets_s"},
-                       {("strlen", "wcslen", "_mbslen", "_mbstrlen", "StrLen", "lstrlen"):"strnlen_s"},
+                       {("wcslen", "_mbslen", "_mbstrlen", "StrLen", "lstrlen"):"strnlen_s"},
                        {("ChangeWindowMessageFilter",):"ChangeWindowMessageFilterEx"},
                        {("alloca", "_alloca"):"SafeAllocA"},
                        {("CharToOem", "CharToOemA", "CharToOemW", "OemToChar", "OemToCharA", "OemToCharW", "CharToOemBuffA", "CharToOemBuffW"):"WideCharToMultiByte"},
